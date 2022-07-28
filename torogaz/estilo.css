@@ -1,0 +1,90 @@
+/*SELECTOR UNIVERSAL*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*SELECTOR DE ETIQUETA*/
+body {
+    background-image: url("https://scontent.fsal2-1.fna.fbcdn.net/v/t1.6435-9/116870622_122608019532472_904420399512542660_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=fSS6eIouSjYAX95rPmR&_nc_ht=scontent.fsal2-1.fna&oh=00_AT82cbKNRaI0lpcp_N5NQoBEma7mM2cTjqvkTCNb7R-UZw&oe=6304AB1E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Estilos para la etiqueta de encabezado */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(7, 6, 6);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+/* Estilos para el logo */
+.logo {
+    font-size: 20px;
+    color: rgb(250, 124, 92);
+    font-weight: bold;
+}
+
+/* ESTILOS PARA LA ETIQUETA NAV QUE CONTIENE UN MENU DE NAVEGACIÓN */
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    position: relative;
+    float: left;
+}
+
+.menu ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(255, 251, 251);
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: black;
+    color: rgb(241, 186, 34);
+}
+
+/* ESTILOS DEL CONTENDOR PRINCIPAL */
+main {
+    top: 100px;
+    background-color: rgba(255, 255, 255, 0.891);
+    box-shadow: 2px 5px 20px rgba(255, 255, 255, 0.952);
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* LETRA CAPITAL */
+.letracapital::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(241, 165, 1);
+    margin: 10px;
+}
+
+/* ESTILOS PARA LOS H1 Y H2 */
+section h1, article h2 {
+    text-align: center;
+    border-bottom: 2px solid rgba(248, 7, 7, 0.878);
+}
+
+/* ESTILOS PARA LOS PARRAFOS DENTRO DE LA ETIQUETA ARTICLE */
+section article p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
